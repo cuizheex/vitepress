@@ -10,8 +10,6 @@ import { defineConfig } from 'vitepress'
   title: '我的知识库',
   // 网站描述，用于SEO
   description: '一个由 VitePress 驱动的文档站点',
-  // 如果网站部署在子路径（如 /docs/），需要设置 base
-   base: '/vitepress/',
   // 设置语言
   lang: 'zh-CN',
  
