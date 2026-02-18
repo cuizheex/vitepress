@@ -3,8 +3,6 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
    
-// .vitepress/config.mjs
-import { defineConfig } from 'vitepress'
 
   // 网站标题，显示在浏览器标签页上
   title: '我的知识库',
