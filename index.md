@@ -1,26 +1,42 @@
- 
 ---
 layout: home
 
 hero:
-  name: VitePress
-  text: 静态站点生成器
-  tagline: 简单、强大、高性能。
+  name: "我的知识库"
+  text: "知识的海洋，智慧的灯塔"
+  tagline: 一个由 VitePress 驱动的现代化文档站点，记录和分享技术知识
   image:
-    light: /logo-light.svg
-    dark: /logo-dark.svg
+    src: /icon.png
+    alt: 知识库
   actions:
     - theme: brand
       text: 快速开始
       link: /guide/getting-started
     - theme: alt
+      text: 浏览指南
+      link: /guide/
+    - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/cuizheex
 
 features:
-  - title: 基于 Vite
-    details: 享受极速的启动和热更新体验。
-  - title: Vue 驱动
-    details: 可以在 Markdown 中使用 Vue 组件，创建交互式内容。
+  - icon: 🚀
+    title: 基于 Vite
+    details: 享受极速的开发体验和构建性能，让文档编写更加流畅。
+  - icon: 🎨
+    title: 美观现代
+    details: 响应式设计，美观的默认主题，支持自定义配置，打造专业文档。
+  - icon: 💡
+    title: Vue 驱动
+    details: 可以在 Markdown 中使用 Vue 组件，创建交互式内容和动态示例。
+  - icon: 📚
+    title: 强大的 Markdown
+    details: 支持表格、代码高亮、数学公式、流程图等丰富的 Markdown 扩展。
+  - icon: 🔍
+    title: 智能搜索
+    details: 内置全文搜索功能，快速找到你需要的知识内容。
+  - icon: 📱
+    title: 多设备适配
+    details: 完美适配桌面端、平板和移动设备，随时随地访问知识。
+
 ---
- 
